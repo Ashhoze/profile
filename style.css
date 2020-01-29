@@ -1,0 +1,80 @@
+body {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: rgba(148,187,233,1);
+  font-family: 'Indie Flower', cursive;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1 {
+  color:#C295D8 ;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color :rgba(238,174,202,1);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+a {
+  color: #C295D8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d45d79;
+}
+
+img {
+   border-radius: 50%;
+}
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.box {
+  text-align: center;
+  background-color: rgba(255, 234, 219, 0.7);
+  padding: 50px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  border: 10px;
+}
+i{
+  font-size: 35px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read background-image: linear-gradient(0deg,#c295d8,#f1c6d3);*/
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 40px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 40px auto;
+  }
+}
